@@ -15,12 +15,12 @@ profile = instaloader.Profile.from_username(L.context, USER)
 
 
 LastShortcode = input("Please enter the shortcode of the last post you wish to download \nIf you wish to download all saved photos, press enter: ")
-#Comes after the Instagram
-#https://www.instagram.com/p/SHORTCODE
+#Comes after Instagram.com/p/
+#https://www.instagram.com/p/SHORTCODE/etc.
 
 if LastShortcode == False:
     LastShortcode = "a"
-#Giving a variable if no shortcode is given
+#Giving a dummy variable if no shortcode is given
 
 FolderName = input("Enter Foldername (if a folder does not already exist, it will be created): ")
 
